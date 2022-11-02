@@ -2,12 +2,12 @@
 
 const _ = require('lodash');
 
-//Exr.1
-console.log('Hello World, Im Node');
+// Ex. 1
+console.log('Hello World, I\'m Node');
 
-// Exr.2
-let output = 'Just testing nodemon' +
-    'this is camel case';
+// Ex. 2
+let output = 'Just testing nodemon, using lodast to conve' +
+    'this camel case';
 console.log(output);
 output = _.camelCase(output);
 console.log(output);
