@@ -14,7 +14,7 @@ const getUsers = (req, res) => {
 
 const getUser = (req, res) => {
     // choose only one object with matching id
-    const user = users.filter(user => req.params.userId == user.id)[0];
+    const user = users.filter(user => req.params.userId === user.id)[0];
     if (user) {
         delete user.password;
         res.json(user);

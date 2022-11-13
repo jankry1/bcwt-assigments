@@ -10,7 +10,7 @@ const users = [
         id: '2',
         name: 'Jane Doez',
         email: 'jane@metropolia.fi',
-        password: 'qwerty',
+        password: 'qwer',
     },
 ];
 

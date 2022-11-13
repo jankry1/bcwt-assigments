@@ -9,7 +9,7 @@ const getCats = (req, res) => {
 
 const getCat = (req, res) => {
     // choose only one object with matching id
-    const cat = cats.filter(cat => req.params.catId == cat.id)[0];
+    const cat = cats.filter(cat => req.params.catId === cat.id)[0];
     if (cat) {
         res.json(cat);
     } else {
